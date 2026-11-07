@@ -1,17 +1,17 @@
 {
   "types": {
     "website": { "label": "Websites", "action": "Open site",     "icon": "🌐" },
-    "apk":     { "label": "Android apps", "action": "Download APK", "icon": "🤖" },
-    "exe":     { "label": "Windows apps", "action": "Download EXE", "icon": "🪟" },
+    "apk":     { "label": "Android apps", "action": "Download APK", "icon": "📱" },
+    "exe":     { "label": "Windows apps", "action": "Download EXE", "icon": "💻" },
     "tool":    { "label": "Tools", "action": "Open tool",     "icon": "🛠️" },
     "other":   { "label": "More", "action": "Open",          "icon": "📦" }
   },
   "products": [
     {
-      "title": "My Best Website",
-      "description": "One line on what it does and who it is for.",
+      "title": "ProblemsHub",
+      "description": "For Builders, By Builders.",
       "type": "website",
-      "url": "https://example.com",
+      "url": "https://problemshub.vercel.app",
       "price": "Free",
       "featured": true,
       "new": true
@@ -34,12 +34,5 @@
       "size": "42 MB",
       "price": "₹499"
     },
-    {
-      "title": "My Web Tool",
-      "description": "A utility that runs in the browser.",
-      "type": "tool",
-      "url": "https://example.com/tool",
-      "price": "Free"
-    }
   ]
 }
