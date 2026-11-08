@@ -19,7 +19,7 @@
 
 Browse the collection, search for a project, filter by category, and follow the links to open a website or view a release.
 
-## Projects
+## All Projects
 
 | Project | What it is | Platform | Link |
 |---|---|---|---|
@@ -27,20 +27,23 @@ Browse the collection, search for a project, filter by category, and follow the 
 | **Sus Among-Us** | A small Android app with the tagline “See a Sus report a Sus.” | Android | [View release](https://github.com/FullStackFailures/OurAllProducts/releases/tag/v1.0.0) |
 | **Ransomware** | A Windows ransomware demonstration project. | Windows | [View release](https://github.com/FullStackFailures/OurAllProducts/releases/tag/ransomware.v1.0.0) |
 
-> **Safety note:** The Ransomware project is a demonstration involving ransomware behaviour. Treat it as potentially harmful software. Do not run it on your everyday device, on production systems, or on any system you do not own or have explicit permission to test. Use an isolated, disposable lab environment only.
-
 The catalogue is updated as projects are released. Product descriptions, versions, sizes, categories, and destination links are shown on the website.
 
 ## The website
 
-- **Live URL:** https://fullstackfailures.github.io/OurAllProducts/
-- **Repository:** https://github.com/FullStackFailures/OurAllProducts
+- **See our all products here:** https://fullstackfailures.github.io/OurAllProducts/
+
+- The website includes products maded by THE FULLSTACK FAILURES.
+
+## This Repository 
+
+https://github.com/FullStackFailures/OurAllProducts
 - **Hosting:** GitHub Pages
 - **Frontend:** HTML, CSS, and vanilla JavaScript
 - **Product data:** JSON files in `data/`
 - **Build step:** None required
 
-The page is designed to work on phones, tablets, and desktop screens. It includes product search, category filters, project cards, and links to the relevant project pages or releases.
+
 
 ## For visitors
 
@@ -56,7 +59,7 @@ For questions, feedback, or collaboration, find us on [GitHub](https://github.co
 ---
 
 <details>
-<summary><strong>Maintainer guide · Repository owner</strong></summary>
+<summary><strong>Maintainer guide · For Repository owner</strong></summary>
 
 This section is for the people maintaining the repository. It is included for convenience, not access control: anyone who can view this public repository can also view the instructions below.
 
