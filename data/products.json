@@ -26,6 +26,15 @@
       "version": "v1.0",
       "size": "66 MB",
       "price": "Free"
-    }
+    }, 
+    {
+      "title": "Ransomware",
+      "description": "A demo of a real ransomware for windows.",
+      "type": "other",
+      "url": "https://github.com/FullStackFailures/OurAllProducts/releases/tag/ransomware.v1.0.0",
+      "icon": "assets/icons/ransomware.png",
+      "version": "v1.0",
+      "size": "1.82 KB",
+      "price": "Free"
   ]
 }
