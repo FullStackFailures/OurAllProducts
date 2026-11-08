@@ -1,0 +1,31 @@
+{
+  "types": {
+    "website": { "label": "Websites",     "action": "Open site",     "icon": "🌐" },
+    "apk":     { "label": "Android apps", "action": "Download APK",  "icon": "📱", "platform": "Android" },
+    "exe":     { "label": "Windows apps", "action": "Download EXE",  "icon": "💻", "platform": "Windows" },
+    "tool":    { "label": "Tools",        "action": "Open tool",     "icon": "🛠️" },
+    "other":   { "label": "More",         "action": "Open",          "icon": "📦" }
+  },
+  "products": [
+    {
+      "title": "ProblemsHub",
+      "description": "For Builders, By Builders.",
+      "type": "website",
+      "url": "https://problemshub.vercel.app",
+      "price": "Free",
+      "icon": "assets/icons/problemshub.png",
+      "featured": true,
+      "new": true
+    },
+    {
+      "title": "Sus Among-Us",
+      "description": "See a Sus report a Sus.",
+      "type": "apk",
+      "url": "https://github.com/FullStackFailures/OurAllProducts/releases/tag/v1.0.0",
+      "icon": "assets/icons/sus.among.us.png",
+      "version": "v1.0",
+      "size": "66 MB",
+      "price": "Free"
+    }
+  ]
+}

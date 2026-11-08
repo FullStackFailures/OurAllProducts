@@ -1,0 +1,17 @@
+{
+  "name": "The Fullstack Failures",
+  "handle": "@FullStackFailures",
+  "bio": "We are Professional Creators of absolute nothing ✋ who build apps, websites and tools. // Then forgot they exist.",
+  "avatar": "assets/logo.png",
+  "socials": [
+    {
+      "label": "GitHub",
+      "url": "https://github.com/FullStackFailures"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://instagram.com/the.fullstack.failures"
+    }
+  ],
+  "footer": "© The Fullstack Failures"
+}
