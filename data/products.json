@@ -18,10 +18,11 @@
       "new": true
     },
     {
-      "title": "My Android App",
-      "description": "Short description. Upload the APK to GitHub Releases and paste the link.",
+      "title": "Sus Among-Us",
+      "description": "See a Sus report a Sus.",
       "type": "apk",
       "url": "https://github.com/FullStackFailures/OurAllProducts/releases/latest/download/app.apk",
+      "icon": "",
       "version": "v1.0",
       "size": "18 MB",
       "price": "Free"
