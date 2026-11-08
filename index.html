@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>The Fullstack Failures | Links</title>
+<meta name="description" content="All websites, apps and tools by The Fullstack Failures.">
+<meta name="theme-color" content="#FA0300">
+<meta name="color-scheme" content="light">
+
+<link rel="icon" href="assets/favicon-192.png" type="image/png">
+<link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+
+<!--
+  Link previews (WhatsApp, X, iMessage) need a full web address for the image.
+  If your page address is not https://fullstackfailures.github.io/OurAllProducts/
+  change the two URLs below. See README, "Link preview image".
+-->
+<meta property="og:type" content="website">
+<meta property="og:title" content="The Fullstack Failures">
+<meta property="og:description" content="All our websites, apps and tools in one place.">
+<meta property="og:image" content="https://fullstackfailures.github.io/OurAllProducts/assets/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://fullstackfailures.github.io/OurAllProducts/assets/og.png">
+
+<link rel="preload" href="assets/fonts/barlow-condensed-800.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/fonts/hanken-grotesk.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="data/site.json" as="fetch" crossorigin>
+<link rel="preload" href="data/products.json" as="fetch" crossorigin>
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<a class="skip" href="#products">Skip to products</a>
+
+<div class="page">
+  <header class="hero">
+    <div class="hero-in">
+      <button id="share" class="share" type="button" aria-label="Share this page">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="M8.6 10.5l6.8-4M8.6 13.5l6.8 4"/></svg>
+      </button>
+
+      <!-- Default lockup shows instantly. app.js rebuilds it from data/site.json if the name changes. -->
+      <h1 id="lockup" class="lockup" aria-label="The Fullstack Failures">
+        <span class="l-row" aria-hidden="true"><span class="l-small">The</span><span class="trace"><i></i><b></b><i></i></span></span>
+        <span class="l-main" aria-hidden="true">Fullstack</span>
+        <span class="l-row" aria-hidden="true"><span class="trace"><i></i><b></b><i></i></span><span class="l-small">Failures</span></span>
+      </h1>
+
+      <div class="hero-copy">
+        <p id="handle" class="handle"></p>
+        <p id="bio" class="bio"></p>
+        <p id="joke" class="joke" hidden></p>
+        <nav id="socials" class="socials" aria-label="Social links"></nav>
+      </div>
+    </div>
+  </header>
+
+  <main class="content" id="main">
+    <section id="featured" aria-label="Start here" hidden></section>
+
+    <div id="note" class="note" role="note" hidden>
+      <strong>Opening this from Instagram?</strong> Downloads can fail inside its browser. Tap the three dots at the top and choose <strong>Open in browser</strong>.
+    </div>
+
+    <div id="tools" class="tools" hidden>
+      <input id="q" type="search" placeholder="Search products" aria-label="Search products" hidden>
+      <div id="chips" class="chips" role="tablist" aria-label="Filter by type"></div>
+    </div>
+
+    <div id="products"></div>
+    <div id="empty" class="empty" hidden>
+      <p>Nothing matches that search.</p>
+      <button id="clear" class="clear" type="button">Show everything</button>
+    </div>
+
+    <footer>
+      <p id="footer"></p>
+    </footer>
+  </main>
+</div>
+
+<div id="toast" class="toast" role="status" aria-live="polite"></div>
+<noscript><p class="nojs">Please turn on JavaScript to see the links, or visit <a href="https://github.com/FullStackFailures">our GitHub</a>.</p></noscript>
+<script src="assets/app.js"></script>
+</body>
+</html>
