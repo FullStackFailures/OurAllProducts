@@ -36,6 +36,16 @@
       "version": "v1.0",
       "size": "1.82 KB",
       "price": "Free"
-    }
+    }, 
+    {
+      "title": "Frame Widget",
+      "description": "Make your Android homescreen look like you.",
+      "type": "apk",
+      "url": "https://github.com/FullStackFailures/OurAllProducts/releases/tag/FrameWidget_v6.0.0",
+      "icon": "assets/icons/Framewidget.png",
+      "version": "v6.0",
+      "size": "105 KB",
+      "price": "Free"
+    },
   ]
 }
